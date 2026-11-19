@@ -1,7 +1,6 @@
 # Replication audit of published microRNA prognostic signatures in NSCLC
 
-Code and result tables for the manuscript *"Do published microRNA prognostic signatures for non-small cell lung cancer outperform random miRNA sets? A replication audit in TCGA and an independent cohort"* [add DOI/preprint link].
-
+Code and result tables for the manuscript *"Do published microRNA prognostic signatures for non-small cell lung cancer outperform random miRNA sets? A replication audit in TCGA and an independent cohort"* https://github.com/bishoytadros2004-star/mirna-nsclc-signature-audit.git
 ## What this repository does
 For 13 published NSCLC miRNA sets (`data/signatures.csv`) it asks whether each set carries more prognostic information than random miRNA sets of the same size, and whether it adds information to stage, age and sex, in TCGA-LUAD, TCGA-LUSC and the independent squamous cohort GSE16025. Per-set Cox models are refitted on the set's miRNAs (set-level test; published weights were not available for most sets) and scored by repeated 5-fold cross-validated C-index; the random-set null uses 300 random sets per set size.
 
@@ -34,4 +33,4 @@ Random seeds are fixed in the scripts. The tables in `results/` come from the or
 [Insert the same statement as in the manuscript, for example: AI assistance was used for literature-search support, statistical analysis code and manuscript drafting; the authors verified all analyses, numbers and references.]
 
 ## Citation and license
-Cite the manuscript and the Zenodo release [DOI]. Code: MIT license. Result tables and figure: CC BY 4.0.
+Cite the manuscript. Code: MIT license. Result tables and figure: CC BY 4.0.

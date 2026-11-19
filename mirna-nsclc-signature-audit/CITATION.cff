@@ -1,11 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this code or results, please cite the manuscript (and the Zenodo release)."
+message: "If you use this code or results, please cite the manuscript."
 title: "Replication audit of published microRNA prognostic signatures in non-small cell lung cancer"
 authors:
-  - family-names: "[Family name]"
-    given-names: "[Given name]"
-    orcid: "https://orcid.org/[0000-0000-0000-0000]"
+  - Bishoy Tadros, bishoytadros2004@gmail.com, https://orcid.org/0009-0006-9817-1837
 version: "1.0.0"
-date-released: "[YYYY-MM-DD]"
 license: MIT
-repository-code: "https://github.com/[your-username]/mirna-nsclc-signature-audit"
+repository-code: https://github.com/bishoytadros2004-star/mirna-nsclc-signature-audit.git
